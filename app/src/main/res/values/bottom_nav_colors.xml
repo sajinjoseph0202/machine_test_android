@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bottom_nav_icon_color_selected">#048F5D</color>
+    <color name="bottom_nav_icon_color_unselected">#6D7D78</color>
+    <color name="bottom_nav_text_color_selected">#048F5D</color>
+    <color name="bottom_nav_text_color_unselected">#6D7D78</color>
+</resources>

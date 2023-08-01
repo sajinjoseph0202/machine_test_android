@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="agri_tech_p">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="BottomNavigationViewStyle" parent="Widget.Design.BottomNavigationView">
+        <item name="android:textColor">@drawable/bottom_nav_item_color_selector</item>
+    </style>
+
+</resources>

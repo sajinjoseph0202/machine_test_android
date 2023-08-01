@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.XmlScreen" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/dark_green</item>
+
+        <item name="bottomNavigationStyle">@style/BottomNavigationViewStyle</item>
+    </style>
+
+    <style name="Theme.XmlScreen" parent="Base.Theme.XmlScreen" />
+</resources>

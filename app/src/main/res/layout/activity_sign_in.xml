@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/splash"
+    android:backgroundTint="@color/dark_green"
+    android:backgroundTintMode="add"
+    tools:context=".SignInActivity">
+
+    <TextView
+        android:id="@+id/sign_in"
+        android:layout_width="45dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="21dp"
+        android:gravity="right|top"
+        android:letterSpacing="0.02"
+        android:text="Sign in"
+        android:fontFamily="@font/gilroy_medium"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="110dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/sign_in3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_medium"
+            android:letterSpacing="0.02"
+            android:text="Sign in"
+            android:textColor="@color/white"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/sign_in2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_medium"
+            android:letterSpacing="0.02"
+            android:text="to continue to Agrilin\u000D"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="41dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/signin_layout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <EditText
+            android:id="@+id/phoneSignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginRight="22dp"
+            android:background="@drawable/custom_textfield"
+            android:drawableLeft="@drawable/flag"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:paddingTop="16dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:text="+91 999933399" />
+
+        <Button
+            android:id="@+id/reqOtp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginRight="22dp"
+            android:background="@drawable/custom_button"
+            app:backgroundTint = "@null"
+            android:textSize="16sp"
+            android:fontFamily="@font/gilroy_semibold"
+            android:text="Request OTP" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
